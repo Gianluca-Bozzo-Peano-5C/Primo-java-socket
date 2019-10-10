@@ -23,7 +23,7 @@ public class SecondoClient {
         try {
             Socket s = new Socket("10.100.21.159", 1050);
             PrintWriter pw = new PrintWriter(s.getOutputStream(),true);
-            pw.println("Bozzo Frocio");
+            pw.println("CIAO STUDENTI");
             s.close();
         } catch (IOException ex) {
 
