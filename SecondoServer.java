@@ -23,7 +23,7 @@ public class SecondoServer {
     public static void main(String[] args) {
         // TODO code application logic here
         try {
-            ServerSocket ss = new ServerSocket(5049);
+            ServerSocket ss = new ServerSocket(2345);
             for (;;) {
                 Socket s;
                 s = ss.accept();
